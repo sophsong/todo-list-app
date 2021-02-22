@@ -109,8 +109,16 @@ code {
 
 .new-card-input {
   display: block;
-  padding: 1%;
+  padding: 2%;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 6px 6px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+}
+
+.card-delete-button{
+  position: relative;
+  top: 1px;
+  font-family: 'Open Sans', sans-serif;
+  right: 1px;
+
 }
