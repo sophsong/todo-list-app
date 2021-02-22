@@ -9,10 +9,9 @@ class ListsController < ApplicationController
         render json: new_list
       end
 
-      def delete 
+      def destroy 
         list = List.find(params[:id])
         list.destroy
-        flash[:notice] = 'List Deleted'
         render json: list
       end
     
